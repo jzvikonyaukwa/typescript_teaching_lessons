@@ -49,24 +49,24 @@ class Customer{
 
     // using accessors
 
-    private _firstName:string;
-    private _lastName:string;
+//     private _firstName:string;
+//     private _lastName:string;
 
-    public get _getFirstName():string {
-        return this._firstName;
-    }
+//     public get _getFirstName():string {
+//         return this._firstName;
+//     }
 
-    public get _getLastName():string {
-        return this._firstName;
-    }
+//     public get _getLastName():string {
+//         return this._firstName;
+//     }
 
-    public set _setFirstName(firstName: string) {
-         this._firstName = firstName;
-    }
+//     public set _setFirstName(firstName: string) {
+//          this._firstName = firstName;
+//     }
 
-    public set _setLastName(lastName: string) {
-        this._lastName = lastName;
-   }
+//     public set _setLastName(lastName: string) {
+//         this._lastName = lastName;
+//    }
 }
 
 let myCustomer =new Customer("Jotham","Zvikonyaukwa");
